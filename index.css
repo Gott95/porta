@@ -27,10 +27,18 @@ p {
     color: rgb(0, 145, 255);
 }
 
-img {
-    width: 488px;
-    height: 550px;
+.take {
+    width: 388px;
+    height: 450px;
+    border-radius: 8em;
+    margin-left: 25px;
 }
+
+.take:hover {
+    box-shadow: 0 0 11px rgba(251, 126, 255, 0.2); 
+  
+}
+
 
 .content {
     display: flex;
@@ -38,7 +46,6 @@ img {
     justify-content: space-between;
     margin: 10% 20%;
     
-
 }
 
 .content-text {
@@ -53,6 +60,7 @@ img {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    gap: 32px;
 }
 
 .enlaces_subtitulos {
@@ -66,13 +74,19 @@ a {
     width: 378px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    margin-top: 20px;
     padding: 21.5px 0px;
     border-radius: 8px;
     color: #F6F6F6;
     text-decoration: none;
     font-size: 24px;
     font-weight: 600;
-    border: 2px solid #22D4FD
+    border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 
+}
+
+a:hover {
+    background-color: #272727;
 }
